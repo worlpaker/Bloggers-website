@@ -1,0 +1,14 @@
+{% extends 'thinkers/header.html' %}
+{% block content %}
+
+    <div class="post">
+        {% if post.published_at %}
+            <div class="date">
+                <p>{{ post.published_at }} - Author: {{post.author}}</p>
+            </div>
+        {% endif %}
+        <h1>{{ post.title|safe }}</h1>
+        <a href="#"><img src="{{post.image.url}}" alt="" width="50%"></a>
+        <p class="text">{{ post.text|safe|linebreaksbr }}</p>
+    </div>
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'thinkers/header.html' %}
+{% block content %}
+
+{% if user.is_authenticated %}
+    <h1>&nbsp;&nbsp;&nbsp;&nbsp;Add New Post</h1>
+    <form class="form-group" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+         {{ form.as_p }}
+      {{form.media}} 
+        <button class="button" type="submit">Upload</button>
+      </form>
+
+      {% endif %}
+{% endblock %}
