@@ -1,4 +1,4 @@
-# Web site, Blogging web site by categories
+# Website, Bloggers website by categories
 ![Program](Photos/Program.jpg)
 ## ABOUT
 - Basic bloggers web site with simple and beautiful theme.
