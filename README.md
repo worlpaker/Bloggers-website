@@ -3,13 +3,8 @@
 ## ABOUT
 - Basic bloggers website with simple and beautiful theme by different categories.
 
-- **Please see: Features**
 
 ## INSTALLATION
-
-- This program require python, you must install python first.
-
-**NOTE: Highly recommend to run into virtual environment(venv).**
 
 See the requirements file for installation packages;
 
@@ -17,13 +12,7 @@ See the requirements file for installation packages;
 
 ### Manual installation of packages
 
->pip install Django
-
->pip install django-crispy-forms
-
->pip install pillow
-
->pip install django-ckeditor
+>pip install Django django-crispy-forms pillow django-ckeditor
 
 - **NOTE** If you want to use registration with social media install django auth social.
 
@@ -32,5 +21,3 @@ See the requirements file for installation packages;
 - Include register/login methods.
 - Easy to editable and improvable.
 - For more information please see **Photos** folder.
-![Home](Photos/Home.jpg)
-![Category](Photos/Cinema_category.jpg)
