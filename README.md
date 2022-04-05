@@ -20,4 +20,4 @@ See the requirements file for installation packages;
 - Include different categories by using timeline.
 - Include register/login methods.
 - Easy to editable and improvable.
-- For more information please see **Photos** folder.
+- For more information about Features please see **Photos** folder.
