@@ -4,6 +4,7 @@
 - Basic bloggers website with simple and beautiful theme by different categories.
 
 
+
 ## INSTALLATION
 
 See the requirements file for installation packages;
