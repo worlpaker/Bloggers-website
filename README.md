@@ -9,13 +9,13 @@
 
 See the requirements file for installation packages;
 
-> pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 ### Manual installation of packages
 
->pip install Django django-crispy-forms pillow django-ckeditor
+```pip install Django django-crispy-forms pillow django-ckeditor```
 
-- **NOTE** If you want to use registration with social media install django auth social.
+- **NOTE** If you want to use registration with social medias install django auth social.
 
 ## FEATURES
 - Include different categories by using timeline.
